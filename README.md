@@ -7,7 +7,7 @@ Besides doing... well... what a compiler is supposed to do, this compiler also p
 Due to the University's Policy 71 regulations, code to this project cannot be posted publicly.
 
 ## Example
-As an example input and output, take a look at ```example.c``` and ```example.asm``` respectively. Things to note
+As an example input and output, take a look at ```example.c``` and ```example.asm``` respectively. Things to note:
 - The integer pointer ```p``` was not coded because it is not referenced in the program
 - The conditional was coded with just ```pear = 80;``` due to dead code elimination
 - The ```cheese``` function's return value was deduced at compile time, then its value replaced the call to ```cheese``` within ```apple```, completely eliminating the function overhead associated with calling ```cheese```
