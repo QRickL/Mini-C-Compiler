@@ -18,11 +18,11 @@ if (1 == 6-5) {
 } else {
   pear = cheese();
 }
-// becomes
+// is coded as
 pear = 80;
 ```
 ```c
 return apple(pear, cheese(), orange + 50);
-// becomes
+// is coded as
 return apple(pear, -100, orange + 50);
 ```
